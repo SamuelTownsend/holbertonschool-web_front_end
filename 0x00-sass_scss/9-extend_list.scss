@@ -1,0 +1,19 @@
+/* using extend to construct selectors with sass */
+
+%class-construct {
+    font-size: 12px;
+}
+
+.info {
+    @extend %class-construct;
+}
+
+.success {
+    @extend %class-construct;
+    color: #00FF00;
+}
+
+.warning {
+    @extend %class-construct;
+    color: #FF0000;
+}
