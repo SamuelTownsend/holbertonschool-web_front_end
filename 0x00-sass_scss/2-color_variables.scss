@@ -1,0 +1,13 @@
+/* assigning color and background color using variables with sass */
+
+$primary-color: #3D3D3D;
+$back-color: #6D6D6D;
+body {
+    color: $primary-color;
+    background-color: $back-color;
+}
+
+h2 {
+    color: $primary-color;
+    background-color: $back-color;
+}
