@@ -1,0 +1,8 @@
+/* importing and using for each to create new items with new attributes with scss/sass */
+
+@import "./11-photos";
+@each $name in $list-names {
+    .photo-#{$name} {
+        background: image-url("photos/#{$name}.jpg") no-repeat;
+    }
+}
