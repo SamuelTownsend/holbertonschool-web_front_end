@@ -1,0 +1,10 @@
+/* applying style using pseudo selectors in nested loops with sass */
+
+$button-color: #FF0000;
+$hover-color: #00FF00;
+button {
+    color: $button-color;
+    button:hover {
+        color: $hover-color;
+    }
+}
