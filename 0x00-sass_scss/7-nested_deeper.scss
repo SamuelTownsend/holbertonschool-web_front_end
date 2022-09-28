@@ -1,0 +1,15 @@
+/* using nested fumctions/inheritance to style with sass */
+
+%body-constructor {
+    font-size: 14px;
+}
+
+body {
+    @extend %body-constructor;
+    h1 {
+        font-size: 16px;
+        &.smaller {
+            font-size: 12px;
+        }
+    }
+}
