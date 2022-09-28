@@ -1,0 +1,9 @@
+/* styling body using nesting with sass */
+
+body {
+    margin: 0;
+    padding: p;
+    p {
+        margin: 10px;
+    }
+}
