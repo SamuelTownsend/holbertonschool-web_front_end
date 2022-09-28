@@ -1,0 +1,19 @@
+/* using mixin to style css */
+
+@mixin BodyConstruct {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@mixin DivConstruct {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+body {
+    @include BodyConstruct()
+}
+
+div {
+    @include DivConstruct()
+}
